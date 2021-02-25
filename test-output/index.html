@@ -142,15 +142,15 @@
                   <a name="LoginTest">
                   </a> <!-- LoginTest -->
                   <span class="method-name">LoginTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;user_login&quot;}
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log in&quot;}
   (Session info: chrome=83.0.4103.97)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ip-172-31-14-28&apos;, ip: &apos;172.31.14.28&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1121-aws&apos;, java.version: &apos;1.8.0_282&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.4vjKVG}, goog:chromeOptions: {debuggerAddress: localhost:32778}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c90087ad3aa3c5a6b73867da5b8d5a40
-*** Element info: {Using=link text, value=user_login}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.gLrZHV}, goog:chromeOptions: {debuggerAddress: localhost:45309}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eeda1192da2e6d08e4d87c4ea5838329
+*** Element info: {Using=link text, value=Log in}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -161,10 +161,7 @@ Session ID: c90087ad3aa3c5a6b73867da5b8d5a40
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
 	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
-	at pages.LoginPage.Login(LoginPage.java:37)
+	at pages.LoginPage.Login(LoginPage.java:36)
 	at test.Testcase1.LoginTest(Testcase1.java:36)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
@@ -244,16 +241,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LoginTest')
 data.setCell(0, 2, 'test.Testcase1')
-data.setCell(0, 3, 4251);
+data.setCell(0, 3, 3084);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testApp')
 data.setCell(1, 2, 'MAVEN.GitHub_Maven.AppTest')
-data.setCell(1, 3, 7);
+data.setCell(1, 3, 6);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -289,17 +286,17 @@ return data;
               <div class="chronological-class-name">test.Testcase1</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">LaunchBrowser</span>
-                <span class="method-start">9 ms</span>
+                <span class="method-start">8 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">1405 ms</span>
+                <span class="method-start">16690 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">5659 ms</span>
+                <span class="method-start">19777 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

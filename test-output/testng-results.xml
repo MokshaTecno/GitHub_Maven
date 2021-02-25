@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5750" started-at="2021-02-24T07:09:22Z" finished-at="2021-02-24T07:09:27Z">
+  <suite name="Suite" duration-ms="19858" started-at="2021-02-25T03:56:07Z" finished-at="2021-02-25T03:56:26Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5750" started-at="2021-02-24T07:09:22Z" finished-at="2021-02-24T07:09:27Z">
+    <test name="Test" duration-ms="19858" started-at="2021-02-25T03:56:07Z" finished-at="2021-02-25T03:56:26Z">
       <class name="MAVEN.GitHub_Maven.AppTest">
-        <test-method status="PASS" signature="testApp()[pri:0, instance:MAVEN.GitHub_Maven.AppTest@3578436e]" name="testApp" duration-ms="7" started-at="2021-02-24T07:09:22Z" finished-at="2021-02-24T07:09:22Z">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:MAVEN.GitHub_Maven.AppTest@3578436e]" name="testApp" duration-ms="6" started-at="2021-02-25T03:56:07Z" finished-at="2021-02-25T03:56:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
       </class> <!-- MAVEN.GitHub_Maven.AppTest -->
       <class name="test.Testcase1">
-        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Testcase1@706a04ae]" name="LaunchBrowser" is-config="true" duration-ms="1396" started-at="2021-02-24T07:09:22Z" finished-at="2021-02-24T07:09:23Z">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:test.Testcase1@706a04ae]" name="LaunchBrowser" is-config="true" duration-ms="16682" started-at="2021-02-25T03:56:07Z" finished-at="2021-02-25T03:56:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:test.Testcase1@706a04ae]" name="LoginTest" duration-ms="4251" started-at="2021-02-24T07:09:23Z" finished-at="2021-02-24T07:09:27Z">
+        <test-method status="FAIL" signature="LoginTest()[pri:0, instance:test.Testcase1@706a04ae]" name="LoginTest" duration-ms="3084" started-at="2021-02-25T03:56:23Z" finished-at="2021-02-25T03:56:26Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"user_login"}
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Log in"}
   (Session info: chrome=83.0.4103.97)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ip-172-31-14-28', ip: '172.31.14.28', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1121-aws', java.version: '1.8.0_282'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.4vjKVG}, goog:chromeOptions: {debuggerAddress: localhost:32778}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c90087ad3aa3c5a6b73867da5b8d5a40
-*** Element info: {Using=link text, value=user_login}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.gLrZHV}, goog:chromeOptions: {debuggerAddress: localhost:45309}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eeda1192da2e6d08e4d87c4ea5838329
+*** Element info: {Using=link text, value=Log in}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"user_login"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log in"}
   (Session info: chrome=83.0.4103.97)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ip-172-31-14-28', ip: '172.31.14.28', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-1121-aws', java.version: '1.8.0_282'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.4vjKVG}, goog:chromeOptions: {debuggerAddress: localhost:32778}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c90087ad3aa3c5a6b73867da5b8d5a40
-*** Element info: {Using=link text, value=user_login}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.gLrZHV}, goog:chromeOptions: {debuggerAddress: localhost:45309}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: eeda1192da2e6d08e4d87c4ea5838329
+*** Element info: {Using=link text, value=Log in}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -54,10 +54,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
 at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
-at pages.LoginPage.Login(LoginPage.java:37)
+at pages.LoginPage.Login(LoginPage.java:36)
 at test.Testcase1.LoginTest(Testcase1.java:36)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -90,7 +87,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:test.Testcase1@706a04ae]" name="CloseBrowser" is-config="true" duration-ms="73" started-at="2021-02-24T07:09:27Z" finished-at="2021-02-24T07:09:27Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:test.Testcase1@706a04ae]" name="CloseBrowser" is-config="true" duration-ms="66" started-at="2021-02-25T03:56:26Z" finished-at="2021-02-25T03:56:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
